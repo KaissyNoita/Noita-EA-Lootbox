@@ -14,8 +14,8 @@ table.insert( actions,
 	action 		= function()
 		add_random_projectile({
 			{ "data/entities/projectiles/deck/lootbox_explosion.xml", "IS_PROJECTILE", 1 },
-			{ "data/entities/items/pickup/goldnugget.xml", "IS_ENTITY", 5 }
+			{ "data/entities/projectiles/deck/lootbox_coins_x100.xml", "IS_ENTITY", 100 }
 		})
-		c.fire_rate_wait = c.fire_rate_wait + 30
+		c.fire_rate_wait = c.fire_rate_wait + 70
 	end,
 } )

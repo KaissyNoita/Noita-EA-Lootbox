@@ -28,7 +28,7 @@
     <config_explosion
       never_cache="1" 
       camera_shake="7.5" 
-      explosion_radius="40" 
+      explosion_radius="60" 
       explosion_sprite="data/particles/explosion_040_poof.xml"
 	  load_this_entity="data/entities/particles/particle_explosion/main_medium.xml"
       explosion_sprite_lifetime="0" 
@@ -36,7 +36,7 @@
       create_cell_material="fire" 
       hole_destroy_liquid="0" 
 	  ray_energy="200000"
-      damage="1.00"
+      damage="40.00"
       hole_enabled="1" 
       hole_image="data/temp/explosion_hole.png" 
       particle_effect="1" 
@@ -53,6 +53,11 @@
       stains_image="data/temp/explosion_stain.png" >
     </config_explosion>
   </ProjectileComponent>
+
+<AudioComponent
+  file="data/audio/Desktop/projectiles.snd"
+  event_root="player">  
+</AudioComponent>
 
 </Entity>
 
